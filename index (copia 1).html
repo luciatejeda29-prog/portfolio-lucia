@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucía Tejeda · Estudiante de Sistemas de Información | UX/UI y desarrollo web</title>
+  <meta name="description" content="Portfolio de Lucía Tejeda, estudiante de Sistemas de Información. Interfaces claras, funcionales y fáciles de usar, con HTML, CSS y JavaScript.">
+  <meta name="theme-color" content="#4B2E83">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lucía Tejeda · UX/UI y desarrollo web">
+  <meta property="og:description" content="Estudiante de Sistemas de Información. Interfaces pensadas desde la perspectiva de las personas.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="logo" href="#inicio" aria-label="Lucía Tejeda, ir al inicio">LT</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="menu" aria-label="Principal">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="https://github.com/luciatejeda29-prog" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a class="btn btn-primary" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="inicio" class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="badge"><span aria-hidden="true"></span>Disponible para pasantías y oportunidades junior</p>
+          <h1>Lucía Tejeda</h1>
+          <p class="role">Estudiante de Sistemas de Información | UX/UI y desarrollo web</p>
+          <p class="lead">Me interesa crear interfaces claras, funcionales y fáciles de usar. Combino mis conocimientos en diseño y desarrollo web con mi experiencia en atención al público para pensar soluciones desde la perspectiva de las personas.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-secondary" href="#contacto">Contactarme</a>
+          </div>
+          <p class="meta">Concepción del Uruguay, Entre Ríos, Argentina</p>
+        </div>
+        <figure class="portrait">
+          <img src="assets/img/lucia.webp" width="480" height="480" alt="Retrato de Lucía Tejeda: sonríe, usa anteojos y tiene el pelo oscuro y rizado.">
+        </figure>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Datos destacados">
+      <div class="wrap stats-grid">
+        <div class="stat"><strong>10</strong><span>años de experiencia en atención al cliente</span></div>
+        <div class="stat"><strong>3</strong><span>proyectos UX/UI</span></div>
+        <div class="stat"><strong>5</strong><span>tecnologías web</span></div>
+        <div class="stat"><strong>B1</strong><span>inglés</span></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="wrap">
+        <h2>Habilidades y herramientas</h2>
+        <div class="grid grid-4">
+          <article class="card">
+            <h3>Diseño UX/UI</h3>
+            <p>Diseño de interfaces, organización de contenidos y prototipado.</p>
+            <ul class="chips"><li>Prototipado</li><li>Canva</li><li>BPMN</li></ul>
+          </article>
+          <article class="card">
+            <h3>Desarrollo web</h3>
+            <p>Estructuración y estilización de páginas web, con atención a la organización y a la experiencia de usuario.</p>
+            <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Tailwind CSS</li><li>Basecoat</li></ul>
+          </article>
+          <article class="card">
+            <h3>Desarrollo y herramientas técnicas</h3>
+            <p>Desarrollo de proyectos, control de versiones y uso de diferentes entornos de trabajo.</p>
+            <ul class="chips"><li>Git</li><li>GitHub</li><li>Node.js</li><li>Pascal</li><li>Linux Mint</li><li>Visual Studio Code</li></ul>
+          </article>
+          <article class="card">
+            <h3>Contenido y comunicación digital</h3>
+            <p>Organización de contenidos y comunicación visual para medios digitales.</p>
+            <ul class="chips"><li>Instagram</li><li>Canva</li><li>Redacción de contenidos</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section alt">
+      <div class="wrap">
+        <h2>Proyectos</h2>
+        <div class="grid grid-3">
+          <article class="card project">
+            <p class="year">Proyecto web</p>
+            <h3><a class="stretched" href="caso-estudio-seguros.html">Cubri-Seguros: plataforma de contratación digital de seguros</a></h3>
+            <p>Desarrollo de una interfaz web para gestionar el proceso de contratación de un seguro de celular. Contempla el recorrido del usuario desde la cotización hasta la confirmación, con especial atención a la claridad de la información y la facilidad de navegación.</p>
+            <ul class="chips"><li>HTML</li><li>JavaScript</li><li>Tailwind CSS</li><li>Basecoat</li><li>JSON</li></ul>
+            <p class="proj-links">
+              <a href="https://github.com/luciatejeda29-prog/cubri-seguros" target="_blank" rel="noopener noreferrer">Repositorio en GitHub</a>
+              <a href="https://luciatejeda29-prog.github.io/cubri-seguros/" target="_blank" rel="noopener noreferrer">Ver sitio</a>
+            </p>
+          </article>
+          <article class="card project">
+            <p class="year">Proyecto académico grupal</p>
+            <h3>OpenArt | Aplicación de arte digital</h3>
+            <p>Diseño de una aplicación de arte digital. Se trabajó en la identificación de necesidades de los usuarios, la definición de 15 requerimientos, la elaboración de flujos de tareas y el desarrollo de un prototipo de alta fidelidad.</p>
+            <ul class="chips"><li>Investigación de usuarios</li><li>Requerimientos funcionales</li><li>Flujos de tareas</li><li>Prototipado</li><li>Diseño UX/UI</li></ul>
+          </article>
+          <article class="card project">
+            <p class="year">Proyecto académico grupal</p>
+            <h3>Sistema de Mesa de Ayuda</h3>
+            <p>Desarrollo de un sistema de mesa de ayuda con JavaScript y Node.js, ejecutado en un entorno local y con pruebas de funcionamiento.</p>
+            <ul class="chips"><li>JavaScript</li><li>Node.js</li><li>Visual Studio Code</li><li>Entorno local</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="wrap narrow">
+        <h2>Experiencia y formación</h2>
+        <ol class="timeline">
+          <li><p class="when">2026</p><h3>Cajera · Evento "Bajo Cielo"</h3>
+            <ul><li>Gestión de cobros en efectivo, transferencias y mediante posnet.</li><li>Atención al público y resolución de consultas.</li><li>Agilidad y organización en situaciones de alta demanda.</li></ul></li>
+          <li><p class="when">En curso</p><h3>Licenciatura en Sistemas de Información · UADER</h3>
+            <ul><li>Formación en programación y desarrollo de software.</li><li>Prácticas de desarrollo web con HTML, CSS y JavaScript.</li><li>Participación en proyectos académicos grupales.</li><li>Diseño de interfaces, prototipado y análisis de requerimientos.</li></ul></li>
+          <li><p class="when">2016 – actualidad</p><h3>Microemprendimiento de venta de comida</h3>
+            <ul><li>Atención directa al cliente y gestión de pedidos.</li><li>Organización de producción y tiempos de entrega.</li><li>Administración de cobros y control de insumos.</li><li>Comunicación y coordinación de actividades comerciales.</li></ul></li>
+          <li><p class="when">2022</p><h3>Atención al cliente · La Morada</h3>
+            <ul><li>Atención y asesoramiento a clientes.</li><li>Coordinación de salón y seguimiento de órdenes.</li><li>Comunicación y colaboración con el equipo de trabajo.</li></ul></li>
+          <li><p class="when">2021</p><h3>Atención al cliente · Grido Helado Argentina</h3>
+            <ul><li>Atención y asesoramiento en mostrador.</li><li>Toma y preparación de pedidos.</li><li>Organización del espacio de trabajo y reposición de productos.</li></ul></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section alt">
+      <div class="wrap narrow">
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de Sistemas de Información y tengo experiencia en atención al cliente y actividades comerciales.</p>
+        <p>Me interesa la tecnología, especialmente el diseño de interfaces y el desarrollo web. Disfruto aprender herramientas nuevas, resolver problemas y encontrar maneras de hacer que los productos digitales sean más claros y fáciles de utilizar.</p>
+        <p>Mi experiencia laboral me enseñó la importancia de escuchar, comunicar y comprender las necesidades de las personas. Hoy busco aplicar esas habilidades en proyectos tecnológicos mientras continúo desarrollando mis conocimientos.</p>
+        <div class="grid grid-3">
+          <article class="card"><h3>Empatía primero</h3><p>Comprender las necesidades de las personas es el punto de partida para crear buenas experiencias.</p></article>
+          <article class="card"><h3>Claridad</h3><p>Busco soluciones simples, contenidos organizados y experiencias fáciles de comprender.</p></article>
+          <article class="card"><h3>Aprender haciendo</h3><p>Me interesa experimentar, poner en práctica lo aprendido y mejorar a partir de cada proyecto.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="wrap contact">
+        <h2>¿Trabajamos juntos?</h2>
+        <p>Estoy abierta a oportunidades junior, pasantías y proyectos donde pueda seguir aprendiendo y aportar mis conocimientos. ¡Escribime!</p>
+        <a class="btn btn-primary" href="mailto:luciatejeda29@gmail.com">luciatejeda29@gmail.com</a>
+        <p class="links">
+          <a href="https://www.linkedin.com/in/lucia-tejeda-38a52023b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/luciatejeda29-prog" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>© 2026 Lucía Tejeda. Hecho con HTML y CSS.</p>
+      <nav aria-label="Pie de página">
+        <a href="#skills">Skills</a><a href="#proyectos">Proyectos</a><a href="#experiencia">Experiencia</a><a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

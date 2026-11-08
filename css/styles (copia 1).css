@@ -122,3 +122,12 @@ a{color:var(--primary)}
 .steps h3{margin-bottom:var(--s1)}
 .bullets{list-style:disc;padding-left:var(--s4);display:grid;gap:var(--s2)}
 @media (min-width:768px){.facts{grid-template-columns:1fr 1fr}}
+
+/* Detalles sutiles */
+h2::after{content:"";display:block;width:48px;height:4px;margin-top:var(--s2);background:var(--sun);border-radius:2px}
+.contact h2::after{margin-inline:auto}
+.card{display:flex;flex-direction:column}
+.card .chips{margin-top:auto;padding-top:var(--s3)}
+.proj-links{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s4);margin:var(--s3) 0 0}
+.proj-links a{position:relative;z-index:1;font-weight:600}
+.role{font-size:1.1rem;line-height:1.35}
